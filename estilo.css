@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    ;
+   
+    --color3:#c9d33a;
+    --color4:#75a0d8;
+    --color5:#801010;   
+}
+
+body{
+    background-image: url(img/fondo.jpeg);
+}
+#contenedor{
+    width:90%;    
+    margin: 25px auto;    
+    padding: 10px;
+}
+#cabecera{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+}
+#contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;   
+    padding:10px;
+    margin:10px;
+}
+
+   
+
+img{
+    max-width: 100%;
+    border: 1px solid white;
+    /* border:1px solid white; */
+    display: block;
+    margin: auto;
+    border-radius: 25px;
+}
+.episodio{
+    /* border:1px solid white; */
+    width: 30%;
+    padding:5px;    
+}
+#pie{    
+    text-align: center;
+    padding:10px
+}
+h1{
+    text-shadow: 2px 5px 10px rgb(240, 241, 236);
+}
+h1,h2,h3,h4{
+    text-align: center;
+    padding:20px;
+}
+h1,h3,h4{color:var(--color5);}
+h2{
+    color: var(--color4);
+}
+p{
+    text-align:justify ;
+    color: var(--color3);    
+}
+a{
+    color: #F2F2F2;
+}
+
+/* colocaremos border blancos para observar las secciones
+encabezado, contenido y pie de la web
+*/
+#cabecera,#contenido,#pie{
+    border:1px solid rgb(156, 40, 40);
+    border-radius: 25px;
+}
+
